@@ -84,6 +84,32 @@ img {max-width: 100%;}
     float: none
 }
 
+#featured-image {
+    background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Big_Sur_California1.jpg/1024px-Big_Sur_California1.jpg) no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+    background-size: cover;
+    background-position: absolute;
+    height: 680px;
+}
+
+#overlay-box {
+    max-width: 960px;
+    width: 90%;
+    height: 680px;
+    margin: 0 auto;
+    clear: left;
+    position: relative;
+    background-color: rgba(246, 246, 245, .25)
+}
+
+#overlay-box p{
+    position:absolute;
+    top: 60%;
+    margin: 0 .8999999999999999%;
+    font-size: 3vw;
+    line-height: 4vw;
+
+}
+
 p {
     font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
     font-size: 26px;
