@@ -57,7 +57,7 @@ body {
 .copy-width-splash {
   	float: left;
     	width: 81.53333333333335%;
-    	margin: 0 .8999999999999999%;
+	margin: 0 auto;
     	margin-left: 2.233333333333334%;
     	clear: left;
     	float: none
