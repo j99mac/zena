@@ -108,16 +108,7 @@ table {
 	margin: 0 auto;
 	clear: left
 }
-body {
-	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-	font-size: 22px;
-	line-height: 37px;
-	font-weight: 400;
- 	margin-bottom: 40px -webkit-font-smoothing: antialiased;
-}
-ol, ul {
-	list-style:none
-}
+
 .splash {
 	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
 	font-size: 100%;
@@ -135,12 +126,6 @@ ol, ul {
 	margin-top: 55px;
 	margin-bottom: 55px;
 	text-align: center
-}
-h1 {
-	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
-	font-weight:bold;
-	text-transform: uppercase;
-	opacity:0.3;
 }
 #section-1 {
 	background-size: 100%;
@@ -162,7 +147,12 @@ h1 {
 	background-image: url();
 }
 #section-1 h1 {
-	font-size:20px;
+	font-size:medium;
+	line-height: normal;
+	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+	font-weight:bold;
+	text-transform: uppercase;
+	opacity:0.3;
 }
 #section-1 h2 {
 	text-transform:capitalize;
