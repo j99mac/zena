@@ -51,8 +51,68 @@ html, body {
 	font-size: 13;
 	color: #000;
 	letter-spacing: 1px;
-    background-color: #f6f6f5;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #d6d4d0;
+    	background-color: #f6f6f5;
+	border-style: solid;
+    	border-width: 1px;
+    	border-color: #d6d4d0;
+.break-splash {
+    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+    color: #666666;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center
+}
+.site-width-splash {
+	max-width:1024px;
+	width: 100%;
+	margin: 0 auto;
+	clear: left
+}
+.copy-width-splash {
+	float: left;
+	width: 91.5333%;
+	margin-left: 9.23333%;
+	clear: left;
+	float: none;
+	padding: 5%;
+	margin-right: 0.9%;
+	margin-bottom: 0;
+}
+#section-1 {
+	background-size:cover;
+	background-image: url('../img/zbrushes1.jpg');
+	background-repeat: no-repeat;
+	display: block;
+	width: 100%;
+}
+#section-1 header {
+	color:#FFF;
+	position:absolute;
+	top:30%;
+	left:50%;
+	margin:0 0 0 -350px;
+	width:700px;
+	text-align:center;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+	line-height:1.1;
+	background-image: url();
+}
+#section-1 h1 {
+	font-size:120px;
+}
+#section-1 h2 {
+	text-transform:capitalize;
+	opacity:.75;
+	font-size:48px;
+}
+/* Section 2 */
+#section-2 {
+}
+/* Section 3 */
+#section-3 {
+}    	
+    	
 }
