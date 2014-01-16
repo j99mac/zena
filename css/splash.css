@@ -101,7 +101,7 @@ h1 {
 	opacity:0.5;
 }
 #section-1 {
-	background-size:cover;
+	background-size: 100%;
 	background-image: url('../img/zbrushes1.jpg');
 	background-repeat: no-repeat;
 	display: block;
