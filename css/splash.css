@@ -112,10 +112,10 @@ ol, ul {
 	text-align: center
 }
 h1 {
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
 	font-weight:bold;
 	text-transform: uppercase;
-	opacity:0.4;
+	opacity:0.3;
 }
 #section-1 {
 	background-size: 100%;
