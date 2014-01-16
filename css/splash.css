@@ -1,69 +1,52 @@
 /********************
 Splash
 ********************/
-html, body {
-	padding: 0;
-	background-color: #fff;
+body {
+	padding-top: 70px;
+	background-color: #f2f2f0;
 }
-.header-image {
-        background: url(http://placehold.it/1200x4800) no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
-        background-position: top;
-        height: auto;
-        display: block;
-        width: 100%;
-        text-align: center;
+.row {
+	margin: 2%;
 }
-
-.headline {
-        padding: 120px 0;
-}
-
-.headline > .container > h1 {
-        font-size: 130px;
-        background: #ffffff;
-        background: rgba(255, 255, 255, 0.9);
-}
-
-.headline > .container > h2 {
-        font-size: 77px;
-        background: #ffffff;
-        background: rgba(255, 255, 255, 0.9);
-}
-
-.container {
-	height:100%;
-	width:100%;
-	position:relative;
-	margin-right: auto;
-    	margin-left: auto;
-}
-
 .text-scroll {
- 	width: 100%;	
-	height: 325px;
+	width: 100%;
+	height: 450px;
 	overflow: auto;
-	margin-top: 4%;
-	margin-bottom: 4%;
-	margin-right: 0; 
-	margin-left: 0; 
-	padding-left: 2%;
-	padding-right: 2%;
-	font-size: 13;
+	margin: 5px;
+	padding: 5px;
+	font-size: 12;
 	color: #000;
 	letter-spacing: 1px;
-    	background-color: #f6f6f5;
+	background-color: #f6f6f5;
 	border-style: solid;
-    	border-width: 1px;
-    	border-color: #d6d4d0;
-.break-splash {
-    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
-    color: #666666;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 600;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    text-align: center
+	border-width: 1px;
+	border-color: #d6d4d0;
+}
+.header-image {
+	background-position: top;
+	height: auto;
+	display: block;
+	margin-top:-22px;
+	text-align: center;
+	background-image: url(img/bg-splash.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover:;
+}
+.headline {
+	padding: 30px 0;
+}
+.headline > .container > h1 {
+	font-size: 130px;
+	background: #ffffff;
+	background: rgba(255, 255, 255, 0.9);
+}
+.headline > .container > h2 {
+	font-size: 20px;
+	line-height:35px;
+	color: #000;
+	background: #ffffff;
+	opacity:0.7;
+	background-position: 255;
 }
 .site-width-splash {
 	max-width:1024px;
@@ -81,9 +64,45 @@ html, body {
 	margin-right: 0.9%;
 	margin-bottom: 0;
 }
+body {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-size: 20px;
+	line-height: 33px;
+	font-weight: 400;
+ 	margin-bottom: 40px -webkit-font-smoothing: antialiased;
+	background-color: #
+	f2f2f0;
+}
+ol, ul {
+	list-style:none
+}
+.splash {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-size: 100%;
+	line-height: 30px;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.break-splash {
+	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+	color: #000;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 800;
+	margin-top: 55px;
+	margin-bottom: 55px;
+	text-align: center
+}
+h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight:bold;
+	text-transform: uppercase;
+	opacity:0.5;
+}
 #section-1 {
 	background-size:cover;
-	background-image: url('/img/zbrushes1.jpg');
+	background-image: url('img/zbrushes1.jpg');
 	background-repeat: no-repeat;
 	display: block;
 	width: 100%;
@@ -113,4 +132,31 @@ html, body {
 }
 /* Section 3 */
 #section-3 {
-}    	
+}
+#section-3 .photos {
+	padding:150px 0;
+	width:620px;
+	margin-left:150px;
+}
+#section-3 .photos > :last-child {
+	margin-bottom:0
+}
+#section-3 .fixed {
+	position: fixed;
+	top: 150px;
+	left: 150px;
+	width: 200px;
+}
+#section-3 .photos-inner {
+	margin-left:220px;
+	width:400px;
+}
+#section-3 .photos-inner img {
+	display:block;
+	margin:0 0 4em 0;
+	max-width:100%;
+	background: #fff;
+	border-radius: 1px;
+	padding: 14px 14px 63px 14px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .2), 0 1px 0 rgba(0, 0, 0, .1);
+}
