@@ -83,12 +83,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 body {
 	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-	font-size: 20px;
-	line-height: 33px;
+	font-size: 22px;
+	line-height: 37px;
 	font-weight: 400;
  	margin-bottom: 40px -webkit-font-smoothing: antialiased;
-	background-color: #
-	f2f2f0;
+	background-color: #000;
 }
 ol, ul {
 	list-style:none
