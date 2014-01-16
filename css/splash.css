@@ -105,10 +105,10 @@ h1 {
 }
 #section-1 header {
 	color:#FFF;
-	position:fixed;
+	position:absolute;
 	top:30%;
-	left: 5%;
-	margin:0 0 0 0px;
+	left:50%;
+	margin:0 0 0 -350px;
 	width:700px;
 	text-align:center;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
