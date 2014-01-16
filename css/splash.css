@@ -113,10 +113,7 @@ body {
 	font-size: 22px;
 	line-height: 37px;
 	font-weight: 400;
- margin-bottom: 40px -webkit-font-smoothing: antialiased;
-}
-ol, ul {
-	list-style:none
+ 	margin-bottom: 40px -webkit-font-smoothing: antialiased;
 }
 .splash {
 	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
@@ -152,7 +149,7 @@ h1 {
 #section-1 header {
 	color:#FFF;
 	position:absolute;
-	top:30%;
+	top:20%;
 	left:50%;
 	margin:0 0 0 -350px;
 	width:700px;
