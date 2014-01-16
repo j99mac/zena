@@ -28,7 +28,7 @@ body {
 	display: block;
 	margin-top:-22px;
 	text-align: center;
-	background-image: url('img/bg-splash.jpg');
+	background-image: url(img/bg-splash.jpg);
 	background-repeat: no-repeat;
  	background-size: cover:;
 }
@@ -102,7 +102,7 @@ h1 {
 }
 #section-1 {
 	background-size:cover;
-	background: url("/img/zbrushes1.jpg");
+	background-image: url('../img/zbrushes1.jpg');
 	background-repeat: no-repeat;
 	display: block;
 	width: 100%;
