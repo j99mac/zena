@@ -55,10 +55,10 @@ body {
 	clear: left
 }
 .copy-width-splash {
-    	width: 81.53333333333335%;
-	margin-left: 10%;
-	margin-right: 5%;
-    	float: none
+      	max-width: 960px;
+    	width: 90%;
+    	margin: 0 auto;
+    	clear: left
 }
 body {
 	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
