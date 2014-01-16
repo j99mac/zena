@@ -83,7 +83,7 @@ html, body {
 }
 #section-1 {
 	background-size:cover;
-	background-image: url('img/zbrushes1.jpg');
+	background-image: url('/img/zbrushes1.jpg');
 	background-repeat: no-repeat;
 	display: block;
 	width: 100%;
