@@ -58,7 +58,7 @@ body {
   	float: left;
     	width: 81.53333333333335%;
     	margin: 0 .8999999999999999%;
-    	margin-left: 9.233333333333334%;
+    	margin-left: 2.233333333333334%;
     	clear: left;
     	float: none
 }
@@ -109,7 +109,7 @@ h1 {
 	color:#FFF;
 	position:fixed;
 	top:30%;
-	left: 50%;
+	left: 10%;
 	margin:0 0 0 0px;
 	width:700px;
 	text-align:center;
