@@ -6,29 +6,56 @@ body {
 	background-color: #fff;
 }
 /* RESET */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block
+}
+body {
+	line-height:1
+}
+ol, ul {
+	list-style:none
+}
+blockquote, q {
+	quotes:none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
 .row {
 	margin: 2%;
 }
-.button{
-    display:inline-block;
-    line-height:1;
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: bold;
-    border-radius: 3px;
-    padding: 6px 8px;
-    background:#000;
-    color:#FFF;
-    margin:2em 0;
+.button {
+	display:inline-block;
+	line-height:1;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	border-radius: 3px;
+	padding: 6px 8px;
+	background:#000;
+	color:#FFF;
+	margin:2em 0;
 }
-    .button:hover{
-        color:#FFF;
-        background-color:#444;
-    }
-    .button+.button{margin-left:1em;}
-
+.button:hover {
+	color:#FFF;
+	background-color:#444;
+}
+.button+.button {
+	margin-left:1em;
+}
 .text-scroll {
 	width: 100%;
 	height: 450px;
@@ -51,7 +78,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	text-align: center;
 	background-image: url(img/bg-splash.jpg);
 	background-repeat: no-repeat;
- 	background-size: cover:;
+ background-size: cover:;
 }
 .headline {
 	padding: 30px 0;
@@ -76,11 +103,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	clear: left
 }
 .copy-width-splash {
-      	max-width: 960px;
-        width: 81.5 3333333333335%;
- 
-    	margin: 0 auto;
-    	clear: left
+	max-width: 960px;
+	width: 81.5 3333333333335%;
+	margin: 0 auto;
+	clear: left
 }
 body {
 	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
@@ -126,7 +152,7 @@ h1 {
 #section-1 header {
 	color:#FFF;
 	position:absolute;
-	top:30%;
+	top:15%;
 	left:50%;
 	margin:0 0 0 -350px;
 	width:700px;
@@ -136,7 +162,7 @@ h1 {
 	background-image: url();
 }
 #section-1 h1 {
-	font-size:120px;
+	font-size:20px;
 }
 #section-1 h2 {
 	text-transform:capitalize;
@@ -149,30 +175,9 @@ h1 {
 /* Section 3 */
 #section-3 {
 }
-#section-3 .photos {
-	padding:150px 0;
-	width:620px;
-	margin-left:150px;
-}
-#section-3 .photos > :last-child {
-	margin-bottom:0
-}
 #section-3 .fixed {
 	position: fixed;
 	top: 150px;
 	left: 150px;
 	width: 200px;
-}
-#section-3 .photos-inner {
-	margin-left:220px;
-	width:400px;
-}
-#section-3 .photos-inner img {
-	display:block;
-	margin:0 0 4em 0;
-	max-width:100%;
-	background: #fff;
-	border-radius: 1px;
-	padding: 14px 14px 63px 14px;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, .2), 0 1px 0 rgba(0, 0, 0, .1);
 }
