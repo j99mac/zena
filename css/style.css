@@ -71,6 +71,18 @@ img {
     opacity: .7
 }
 
+.section-top-caption {
+    font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    color: #4c4c4c;
+    font-size: 1.9vw;
+    line-height: 33px;
+    font-weight: 100;
+    margin-left: 55%;
+    margin-top: 0px
+
+}
+
 .site-width {
     max-width: 960px;
     width: 90%;
