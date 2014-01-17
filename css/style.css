@@ -86,6 +86,9 @@ img {max-width: 100%;}
     float: none
 }
 
+img {
+  margin: 5px;
+}
 #featured-image {
     background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Big_Sur_California1.jpg/1024px-Big_Sur_California1.jpg) no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
     background-size: cover;
