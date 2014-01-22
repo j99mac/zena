@@ -81,6 +81,38 @@ body {
     margin-top: 0px
 }
 
+.divider img {
+    display: block;
+    height: auto;
+    left: 0;
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#featured-image {
+    background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Big_Sur_California1.jpg/1024px-Big_Sur_California1.jpg) no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+    background-size: cover;
+    background-position: absolute;
+    height: 680px;
+ }
+
+#overlay-box {
+    max-width: 960px;
+    width: 90%;
+    height: 680px;
+    margin: 0 auto;
+    clear: left;
+    position: relative;
+    background-color: rgba(246, 246, 245, .25)
+}
+
+
+
 ul,li,ol,dl,dd,dt {
     list-style: none;
     padding: 0;
@@ -123,19 +155,6 @@ p {
     text-align: center;
 }
 
-.divider img {
-    display: block;
-    height: auto;
-    left: 0;
-    max-width: 100%;
-    position: relative;
-    top: 0px;
-    width: 100%;
-    z-index: 0;
-    margin-bottom: 5%;
-    margin-top: 5%;
-}
-
 .quote {
     font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
     color: #4c4c4c;
@@ -168,6 +187,14 @@ p {
     text-align: center;
     font-weight: 400;
     margin-bottom: 2%;
+}
+
+#overlay-box p{
+    position:absolute;
+    top: 60%;
+    margin: 0 .8999999999999999%;
+    font-size: 3vw;
+    line-height: 4vw;
 }
 
 /* footer button */
