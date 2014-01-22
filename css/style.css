@@ -123,6 +123,19 @@ p {
     text-align: center;
 }
 
+.divider img {
+    display: block;
+    height: auto;
+    left: 0;
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
 .quote {
     font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
     color: #4c4c4c;
