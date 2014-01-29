@@ -172,22 +172,55 @@ ul,li,ol,dl,dd,dt {
     margin: 0;
 }
 
-/* Typography */
+/* =Headings */
+h1, h2, h3, h4, h5 {
+        font-weight: 700;
+        line-height: 1.2em;
+        word-wrap: break-word;
+}
 h1 {
-    font-size: 3.4285714285714284em;
+        font-size: 2.625em; /* = 42px */
+        font-weight: 500;
+        font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+        opacity: .7;
+        margin-bottom: .5em;
+        margin-top: .5em;
+        padding-left: 10%;
+        width: 80%;
+        color: #FFF;
+        text-align: left;
+        display: block;
 }
-
 h2 {
-    font-size: 2.2857142857142856em;
+        font-size: 2.250em; /* = 36px */
+        font-weight: 500;
+        font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+        opacity: .7;
+        margin-bottom: .75em;
+        margin-top: .75em;
+        padding-left: 10%;
+        width: 80%;
+        min-width:inherit;
+        color: #FFF;
+        text-align: left;
+        display: block;
 }
-
 h3 {
-  font-size: 1.7142857142857142em;
+        font-size: 1.875em; /* = 30px */
+        font-weight: 500;
+        font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+        opacity: .6;
+        margin:0;
+        padding:0;
+        padding-left: 10%;
+        width: 80%;
+        color: #FFF;
+        text-align: left;
+        display: block;
 }
 
-h4 {
-  font-size: 1.5em;
-}  
+/* Typography */
+
 
 p {
     font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
