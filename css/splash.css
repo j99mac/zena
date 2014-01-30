@@ -78,7 +78,7 @@ a {
 	clear: both;
 }
 .container > header {
-	padding: 30px 30px 10px 20px;
+	padding: 30px 30px 10px 40px;
 	margin: 0px 20px 10px 20px;
 	position: relative;
 	display: block;
@@ -88,15 +88,18 @@ a {
 .container > header h1 {
 	opacity: .6;
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	font-size: 42px;
+	font-size: 48px; /* = 42px */
 	line-height: 42px;
 	position: relative;
 	font-weight: 400;
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	padding: 0px 0px 5px 0px;
+	opacity: .7;
+
 }
 .container > header h1 span {
+	font-size: 48px; /* = 42px */
 }
 .container > header h2, p.info {
 	opacity: .6;
@@ -154,7 +157,7 @@ p.splash-demo-text {
 	opacity: .7;
 	display: block;
 	padding-top: 5px;
-	padding-right: 0px;
+	padding-right: 40px;
 	padding-bottom: 15px;
 	padding-left: 0px;
 	text-align: left;
