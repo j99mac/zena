@@ -33,13 +33,6 @@ address, caption, cite, code, dfn, th, var {
 	font-weight:normal;
 }
 
-/* iPhone */
-@media screen and (max-device-width: 480px) {
-    html {
-        -webkit-text-size-adjust: none;
-    }
-}
-
 ol, ul {
 	list-style:none;
 }
@@ -255,6 +248,7 @@ p.splash-text {
 @media screen and (max-device-width: 480px) {
 htnml, body {
 	overflow-y:hidden;
+	-webkit-text-size-adjust: none;
 }
  .container > header {
 		padding-right: 5%;
