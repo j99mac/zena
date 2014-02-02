@@ -85,7 +85,7 @@ a {
 	clear: both;
 }
 .container > header {
-	mim-width: 90%;
+	mim-width: 99%;
 	position: relative;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -95,9 +95,9 @@ a {
 	margin-bottom: 0;
 	margin-left: auto;
 	padding-top: 20px;
-	padding-right: 60px;
+	padding-right: 40px;
 	padding-bottom: 5px;
-	padding-left: 60px;
+	padding-left: 40px;
 }
 .container > header h1 {
 	opacity: .6;
@@ -174,7 +174,8 @@ p.splash-text {
 	font-size: 1em;
 	line-height: 1.4em;
 	width:100%;
-	max-width:420px;
+	mmin-width:300px;
+	max-width:400px;
 	color: #fff;
 	opacity: .6;
 	padding-top: 0px;
