@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	font-size:100%;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight:normal;
 }
 q:before, q:after {
@@ -171,7 +171,7 @@ p.splash-button {
 	max-width:420px;
 }
 p.splash-text {
-	font-size: 1em;
+	font-size: 1.2em;
 	line-height: 1.4em;
 	width:100%;
 	mmin-width:300px;
