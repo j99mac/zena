@@ -246,8 +246,8 @@ p.splash-text {
 }
 /* iPhone */
 @media screen and (max-device-width: 480px) {
-body {
-	overflow-x:hidden;
+htnml, body {
+	overflow-y:hidden;
 }
 .container > header {
 	width: 90%;
@@ -257,5 +257,7 @@ body {
 }
 p.splash-text {
 	width:100%;
+	min-width: 300px;
 	max-width:400px;
+	overflow:hidden;
 }
