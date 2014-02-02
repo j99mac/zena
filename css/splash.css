@@ -250,8 +250,8 @@ p.splash-text {
         -webkit-text-size-adjust: none;
     }
     .container > header {
-	width: 99%;
+	width: 90%;
 	padding-right: 40px;
-	padding-bottom: 5px;
 	padding-left: 40px;
+	overflow:hidden;
 }
