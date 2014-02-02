@@ -257,6 +257,6 @@ htnml, body {
 	overflow-y:hidden;
 }
  .container > header {
-		padding-right: 40px;
-		padding-left: 40px;
+		padding-right: 5%;
+		padding-left: 5%;
 }
