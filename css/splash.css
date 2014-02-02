@@ -246,6 +246,9 @@ p.splash-text {
 }
 /* iPhone */
 @media screen and (max-device-width: 480px) {
+body {
+	overflow-x:hidden;
+}
 .container > header {
 	width: 90%;
 	padding-right: 40px;
