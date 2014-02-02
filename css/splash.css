@@ -85,7 +85,8 @@ a {
 	clear: both;
 }
 .container > header {
-	mim-width: 99%;
+	width: 99%;
+	min-width: 300px;
 	position: relative;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -98,6 +99,7 @@ a {
 	padding-right: 60px;
 	padding-bottom: 5px;
 	padding-left: 60px;
+	
 }
 .container > header h1 {
 	opacity: .6;
