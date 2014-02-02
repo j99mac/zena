@@ -74,9 +74,8 @@ a {
 .container {
 	position: relative;
 	text-align: center;
+	margin: 0 auto
 	width: 100%;
-	min-width:400px;
-	max-width:500px
 }
 .clr {
 	clear: both;
@@ -223,14 +222,14 @@ p.splash-button a.current-button, p.splash-button a.current-button:hover {
 /* Media Queries */
 @media screen and (max-width: 900px) {
  .container > header {
- text-align: center;
+ 	text-align: center;
 }
  p.splash-button {
- position: relative;
- top: auto;
- left: auto;
+ 	position: relative;
+ 	margin: 0 auto;
+
 }
 p.splash-text {
- text-align: center;
- position: relative;
+ 	text-align: center;
+ 	position: relative;
 }
