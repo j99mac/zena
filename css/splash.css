@@ -11,8 +11,9 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 	padding:0;
 }
 html, body {
-	margin:0;
+	margin: 0 auto;
 	padding:0;
+	width: 100%;
 }
 table {
 	border-collapse:collapse;
@@ -38,8 +39,9 @@ caption, th {
 	text-align:left;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-size:100%;
-	font-weight:normal;
+	font-weight: 200;
+	letter-spacing: -1px;
+	line-height: 1.2
 }
 p {
 	font-size:100%;
@@ -55,13 +57,15 @@ abbr, acronym {
 /* General button Style */
 body {
 	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	background: #000;
-	font-weight: 400;
-	font-size: 1.2em;
-        text-rendering: optimizeLegibility;
+	font-size: 1em;
+	line-height: 1.3;
+	font-weight: 200;
+	background-color: #000;
+	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	overflow:hidden;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	width: 100%;
 }
 .ie7 body {
@@ -74,29 +78,26 @@ a {
 .container {
 	position: relative;
 	text-align: center;
-	margin: 0 auto
+	margin: 0 auto;
 	width: 100%;
-	min-width:300px;
-	max-width:345px
 }
 .clr {
 	clear: both;
 }
 .container > header {
+	mim-width: 90%;
 	position: relative;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 	text-align: left;
-	margin-top: 0px;
-	margin-right: 1.2em;
-	margin-bottom: 10px;
-	margin-left: 1.2em;
-	padding-top: 40px;
-	padding-right: 30px;
-	padding-bottom: 10px;
-	padding-left: 40px;
-	min-width:300px;
-	max-width:345px
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 60px;
+	padding-bottom: 5px;
+	padding-left: 60px;
 }
 .container > header h1 {
 	opacity: .6;
@@ -108,10 +109,9 @@ a {
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	padding: 0px;
-	opacity: .6;
 }
 .container > header h1 span {
-	font-size: 1.25em
+	font-size: 1.5em
 }
 .container > header h2, p.info {
 	opacity: .6;
@@ -119,6 +119,11 @@ a {
 	font-style: italic;
 	color: #f8f8f8;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+.container > header h2 {
+	opacity: .6;
+	padding: 0px;
+	width:100%;
 }
 /* Header Style */
 .splash-top {
@@ -158,26 +163,28 @@ a {
 }
 p.splash-button {
 	display: block;
-	padding-top: 18px;
+	padding-top: 10px;
 	padding-right: 0px;
-	padding-bottom: 18px;
+	padding-bottom: 10px;
 	padding-left: 0px;
+	width:100%;
+	max-width:420px;
 }
 p.splash-text {
 	font-size: 1em;
-	line-height: 1.5em;
+	line-height: 1.4em;
 	width:100%;
-	min-width:300px;
-	max-width:345px;
+	max-width:420px;
 	color: #fff;
 	opacity: .6;
-	padding-top: 5px;
-	padding-right: 10px;
-	padding-bottom: 15px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
 	padding-left: 0px;
-	text-align: left;
+	text-align: Left;
 	position: relative;
 	display: inline-block;
+
 }
 p.splash-button a, p.splash-button a.current-button, p.splash-button a.current-button:hover {
 	opacity: .6;
@@ -215,23 +222,22 @@ p.splash-button a:active {
 	background: -o-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
 	background: -ms-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
 	background: linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
-	-webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
-	-moz-box-shadow:0px 1px 1px rgba(255, 255, 255, 0.9);
-	box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
+	-webkit-box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.9);
+	-moz-box-shadow:0px 2px 2px rgba(255, 255, 255, 0.9);
+	box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.9);
 }
 p.splash-button a.current-button, p.splash-button a.current-button:hover {
 	color: #A5727D;
 	background: #6d0019;
 }
 /* Media Queries */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
  .container > header {
- 	text-align: center;
+	 text-align: center;
 }
  p.splash-button {
- 	position: relative;
- 	margin: 0 auto;
-
+	 position: relative;
+	margin: 0 auto;
 }
 p.splash-text {
  	text-align: center;
