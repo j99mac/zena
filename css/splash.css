@@ -258,6 +258,5 @@ htnml, body {
 p.splash-text {
 	width:100%;
 	min-width: 300px;
-	max-width:400px;
 	overflow:hidden;
 }
