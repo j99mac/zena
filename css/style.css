@@ -1,29 +1,46 @@
+/********************
+Header
+********************/
+
+/********************
+Mobile
+********************/
+
+/* */
 body {
-  display: block;
-  padding-top: 70px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    width: 100%;
+    *zoom: 1;
 }
-
-img {max-width: 100%;}
-
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: block;
-}
-
+/* Nav bar color */
 .navbar {
     background-color: #d6d4d0;
 }
+/* site with (containers)*/
+.site-width {
+    max-width: 1000px;
+    width: 90%;
+    clear: left;
+    margin: 0 auto;
+}
 
+.copy-width {
+    width: 81.533333333333%;
+    clear: left;
+    float: none;
+    margin: 0 .8999999999999999% 0 9.2333333333333%;
+}
+/* general */
 .section.top {
     margin: 0;
-    margin-top: -40px;
+    margin-top: 25px;
     overflow: hidden;
     padding: 0;
     position: relative;
 }
-
-.section.top img{
+.section.top img {
     display: block;
     height: auto;
     left: 0;
@@ -34,20 +51,6 @@ img {max-width: 100%;}
     z-index: 0;
     margin-bottom: 40px
 }
-
-.divider img{
-    display: block;
-    height: auto;
-    left: 0;
-    max-width: 100%;
-    position: relative;
-    top: 0px;
-    width: 100%;
-    z-index: 0;
-    margin-bottom: 5%;
-    margin-top: 5%
-}
-
 .section.top .container {
     width: none;
     max-width: none;
@@ -67,167 +70,306 @@ img {max-width: 100%;}
     text-align: left;
     opacity: .7
 }
-
-.site-width {
-    max-width: 960px;
-    width: 90%;
-    margin: 0 auto;
-    clear: left
-}
-
-.copy-width {
-    float: left;
-    width: 81.53333333333335%;
-    margin: 0 .8999999999999999%;
-    margin-left: 9.233333333333334%;
-    clear: left;
-    float: none
-}
-
-p {
-    font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-    font-size: 26px;
-    line-height: 39px;
-    font-weight: 500;
-    margin-bottom: 40px
-}
-
-h1 {
-    display:block;
-    font-family:"Arial", Times, serif;
-}
-
-
-h2 {
-    font-family: "ff-meta-serif-web-pro", Arial, "Times New Roman", serif;
-    font-size: 9.9vw;
-    line-height: 70px;
-    font-weight: 500;
-    margin-bottom: 50px;
-    opacity: .8;
-    -webkit-font-smoothing: antialiased
-}
-
-h2 {
-  font-size: 3.0vh;
-}
-.break {
-    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
-    color: #666666;
-    font-size: 60px;
-    line-height: 60px;
-    font-weight: 700;
-    margin-top: 55px;
-    margin-bottom: 55px;
-    text-align: center
-}
-
-.quote {
-    font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-    color: #4c4c4c;
-    font-size: 20px;
-    line-height: 31px;
-    font-weight: 100;
-    margin-bottom: 30px;
-    margin-left: 60px;
-    width: 80%
-}
-
-.art-caption {
+.section-top-caption {
     font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
     font-style: italic;
     color: #4c4c4c;
     font-size: 1.9vw;
     line-height: 33px;
-    font-weight: 100
-
+    font-weight: 100;
+    margin-left: 55%;
+    margin-top: 0px
 }
 
-footer {
-    background-color: #d6d4d0;
-    padding: 15px
+.slide1-text {
+        width: 81.5333%;
+        clear: left;
+        float: none;
+        display: block;
+        margin-left: 7%;
+        margin-top: 5%;
 }
 
-@media only screen and (max-device-width: 480px) {
-p {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
+.divider img {
+    display: block;
+    height: auto;
+    left: 0;
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#featured-image {
+    background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Big_Sur_California1.jpg/1024px-Big_Sur_California1.jpg) no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+    background-size: cover;
+    background-position: absolute;
+    height: 680px;
  }
 
-.break {
-    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
-    color: #666666;
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 12px;
-    margin: 5px
-}   
-
-.quote {
-    font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-    font-size: 16px;
-    line-height: 20px;
-    margin-left: 20px;
-    margin-top: 5px;
-}
-
-.site-width {
+#overlay-box {
+    max-width: 960px;
     width: 90%;
+    height: 680px;
     margin: 0 auto;
-    clear: left
-}
-
-.copy-width {
-    width: 95%;
-    float: left;
-    margin: 5%;
     clear: left;
-    float: none
+    position: relative;
+    background-color: rgba(246, 246, 245, .25)
 }
 
-@media print {
-      /* style sheet for print goes here */
-body {
-    width: 100%;
-    height: 100%;
-    margin: .0.5cm;
+/* button */
+.btn {
+        display:inline-block;
+        margin-bottom:0;
+        font-weight:400;
+        text-align:center;
+        vertical-align:middle;
+        cursor:pointer;
+        background-image:none;
+        border:1px solid transparent;
+        white-space:nowrap;
+        padding:6px 12px;
+        font-size:14px;
+        line-height:1.428571429;
+        border-radius:4px;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        -o-user-select:none;
+        user-select:none
+}
+.btn-default {
+        color:#333;
+        background-color:#fff;
+        opacity: .7;
+        border-color:#ccc
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+        color:#333;
+        background-color:#ebebeb;
+        border-color:#adadad
+}
+.btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+        background-image:none
+}
+.btn-default.disabled, .btn-default[disabled], fieldset[disabled] .btn-default, .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled:active, .btn-default[disabled]:active, fieldset[disabled] .btn-default:active, .btn-default.disabled.active, .btn-default[disabled].active, fieldset[disabled] .btn-default.active {
+        background-color:#fff;
+        opacity: .6;
+        border-color:#ccc
+}
+.btn-left {
+        text-align:left;
+        padding-left: 10%;
+        padding-top: 2%;
 }
 
-p. {
-    font-family:times,serif;
-    font-size:12px;  
-    line-height: 18px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 12px
+ul,li,ol,dl,dd,dt {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
- .break {
-    font-size: 20px;
-    line-height: 26px;
+
+/* =Headings */
+h1, h2, h3, h4, h5 {
+        font-weight: 700;
+        line-height: 1.2em;
+        word-wrap: break-word;
+}
+h1 {
+        font-size: 2.625em; /* = 42px */
+        font-weight: 500;
+        font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+        opacity: .7;
+        margin-bottom: .5em;
+        margin-top: .5em;
+        padding-left: 10%;
+        width: 80%;
+        color: #FFF;
+        text-align: left;
+        display: block;
+}
+h2 {
+        font-size: 2.250em; /* = 36px */
+        font-weight: 500;
+        font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+        opacity: .7;
+        margin-bottom: .75em;
+        margin-top: .75em;
+        padding-left: 10%;
+        width: 80%;
+        min-width:inherit;
+        color: #FFF;
+        text-align: left;
+        display: block;
+}
+h3 {
+        font-size: 1.875em; /* = 30px */
+        font-weight: 500;
+        font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+        opacity: .6;
+        margin:0;
+        padding:0;
+        padding-left: 10%;
+        width: 80%;
+        color: #FFF;
+        text-align: left;
+        display: block;
+}
+
+/* Typography */
+
+
+p {
+    font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+    font-size: 26px;
+    line-height: 39px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.break {
+    font-family: ff-meta-serif-web-pro, Arial, Times, "Times New Roman", serif;
+    color: #666;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 25px;
     text-align: center;
-}  
+}
 
 .quote {
-    font-size: 14px;
-    margin-left: 20px;
+    font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+    color: #4c4c4c;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 100;
+    margin-bottom: 2%;
+    margin-left: 60px;
+    width: 80%;
+}
+/*  Image and Caption */
+.img-center {
+    width: 80%;
+    max-width: 100%;
+    min-width: 60%;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-bottom: 1%;
+    margin-left: auto;
+    display: block;
+}
+
+.art-caption {
+    font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    color: #4c4c4c;
+    font-size: 2vw;
+    line-height: 33px;
+    font-weight: 100;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+#overlay-box p{
+    position:absolute;
+    top: 60%;
+    margin: 0 .8999999999999999%;
+    font-size: 3vw;
+    line-height: 4vw;
+}
+
+/* footer button */
+.footer-button {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 4%;
+}
+/* footer */
+footer {
+    background-color: #d6d4d0;
+    height: 100px;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+footer  p{
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+@media all and max-width1000px and min-width500px {
+body {
+     width: 100%;
+}
+
+p {
+    font-size: 23px;
+    line-height: 34px;
+    margin-bottom: 35x;
+}
+.site-width {
+    max-width: 1000px;
+    width: 90%;
+    clear: left;
+    margin: 0 auto;
+}
+.copy-width {
+     width: 81.533333333333%;
+    clear: left;
+    float: none;
+    margin: 0 .8999999999999999% 0 9.2333333333333%;
+}
+
+}
+/* Print */
+@media print {
+* {
+    min-height: inherit !important;
 } 
+#container, {
+    width:auto;
+    position: static;
+    float:none;
+    margin:0;
+    overflow:visible;
+    background-color:transparent;
+    border:none;
+    min-height:auto;
+}
+
+p {
+    font-size: 13px;
+}
 
 img {
-    width: 640;
+    max-width: 500px;
+
+}.navbar {
+    display: none;
+}  
+.btn{
+     display: none;
 }
 
-.site-width {
-    width: 100%;
-    margin: .0.5cm;
+.footer {
+     display: none;
+  }
+.footer p {
+     display: none;
+  }
+
+@page :left {
+margin: 0.5cm;
 }
 
-.copy-width {
-    float: left;
-    width: 80%;
-    margin: .0.5cm;
+@page :right {
+margin: 0.8cm;
 }
-
-} 
+}
